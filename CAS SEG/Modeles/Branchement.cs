@@ -11,7 +11,7 @@ namespace CAS_SEG.Modeles
     {
         #region Attributs
         public static ArrayList CollClasseBranchement = new ArrayList();
-
+        private Compteur _leCompteur;
         #endregion
 
         #region Constructeur
@@ -19,7 +19,7 @@ namespace CAS_SEG.Modeles
         #endregion
 
         #region Getter Setter
-
+        internal Compteur LeCompteur { get => _leCompteur; set => _leCompteur = value; }
         #endregion
 
         #region Methodes
