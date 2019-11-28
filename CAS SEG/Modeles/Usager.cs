@@ -10,7 +10,11 @@ namespace CAS_SEG.Modeles
     class Usager : Branchement
     {
         #region Attributs
-        public static ArrayList CollClasseUsager = new ArrayList();
+        //public static ArrayList CollClasseUsager = new ArrayList();
+        public Usager()
+        {
+            Branchement.CollClasseBranchement.Add(this);
+        }
         #endregion
 
         #region Constructeur
