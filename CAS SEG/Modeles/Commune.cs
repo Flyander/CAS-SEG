@@ -47,14 +47,14 @@ namespace CAS_SEG.Modeles
             return 0;
         }
 
-        public string pertes()
+        public int pertes()
         {
-            return "a";
+            return 0;
         }
 
-        public string anomalies()
+        public int anomalies()
         {
-            return "a";
+            return 0;
         }
         #endregion
     }
