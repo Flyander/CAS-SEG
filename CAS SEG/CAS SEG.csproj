@@ -54,7 +54,10 @@
     </Compile>
     <Compile Include="Modeles\Branchement.cs" />
     <Compile Include="Modeles\Commune.cs" />
+    <Compile Include="Modeles\Compteur.cs" />
     <Compile Include="Modeles\Secteur.cs" />
+    <Compile Include="Modeles\Usager.cs" />
+    <Compile Include="Modeles\Vanne.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
