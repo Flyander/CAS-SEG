@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace CAS_SEG.Modeles
 {
-    class Vanne
+    class Vanne : Branchement
     {
+        public override int conso()
+        {
+            return 1; //Valeur d'essai :3
+        }
     }
 }
