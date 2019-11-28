@@ -8,6 +8,10 @@ namespace CAS_SEG.Modeles
 {
     class Vanne : Branchement
     {
+        public Vanne()
+        {
+            Branchement.CollClasseBranchement.Add(this);
+        }
         public override int conso()
         {
             return 1; //Valeur d'essai :3
