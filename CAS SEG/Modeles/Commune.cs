@@ -14,6 +14,7 @@ namespace CAS_SEG.Modeles
 
         private int _numCom;
         private string _nomCom;
+        private ArrayList _lesSecteurs;
 
 
         #endregion
@@ -23,12 +24,14 @@ namespace CAS_SEG.Modeles
         {
             NumCom = numCom;
             NomCom = nomCom;
+            LesSecteurs = new ArrayList();
         }
         #endregion
 
         #region getSet
         public int NumCom { get => _numCom; set => _numCom = value; }
         public string NomCom { get => _nomCom; set => _nomCom = value; }
+        public ArrayList LesSecteurs { get => _lesSecteurs; set => _lesSecteurs = value; }
         #endregion
 
         #region methodes
