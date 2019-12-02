@@ -15,6 +15,11 @@ namespace CAS_SEG.Modeles
         #endregion
 
         #region Constructeur
+        public Branchement(Compteur leCompteur)
+        {
+            this._leCompteur = leCompteur;
+            CollClasseBranchement.Add(this);
+        }
         #endregion
 
         #region Getter Setter

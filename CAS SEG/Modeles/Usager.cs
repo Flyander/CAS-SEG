@@ -11,16 +11,12 @@ namespace CAS_SEG.Modeles
     {
         #region Attributs
         //public static ArrayList CollClasseUsager = new ArrayList();
-        public Usager()
-        {
-            Branchement.CollClasseBranchement.Add(this);
-        }
         #endregion
 
         #region Constructeur
-        public Usager()
+        public Usager(Compteur leCompteur) : base(leCompteur)
         {
-            Branchement.CollClasseBranchement.Add(this);
+            
         }
         #endregion
 
