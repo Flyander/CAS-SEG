@@ -15,7 +15,6 @@ namespace CAS_SEG.Modeles
         #endregion
 
         #region Constructeur
-
         #endregion
 
         #region Getter Setter

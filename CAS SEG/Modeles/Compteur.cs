@@ -21,6 +21,7 @@ namespace CAS_SEG.Modeles
         {
             IndexAncien = indexAncien;
             IndexNouveau = indexNouveau;
+            collClassCompteur.Add(this);
         }
         #endregion
 
