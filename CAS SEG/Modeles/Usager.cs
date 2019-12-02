@@ -18,7 +18,10 @@ namespace CAS_SEG.Modeles
         #endregion
 
         #region Constructeur
-
+        public Usager()
+        {
+            Branchement.CollClasseBranchement.Add(this);
+        }
         #endregion
 
         #region Getter Setter
